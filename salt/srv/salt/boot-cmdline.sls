@@ -5,3 +5,8 @@
     - group: root
     - mode: 755
     - backup: minion
+
+system.reboot:
+  module.run:
+    - onchanges:
+      - file: /boot/cmdline.txt
