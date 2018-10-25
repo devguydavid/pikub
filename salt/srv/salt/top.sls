@@ -4,4 +4,5 @@ base:
     - docker-package
     - disable-swap
     - boot-cmdline
+    - kubeadm-package
 
